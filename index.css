@@ -1,0 +1,19 @@
+.padre-card{
+    width: 700px;
+    height: 300px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: var(--espacio);
+    flex-wrap: wrap;
+}
+.card{
+    width: 40px;
+    height: 40px;
+    border-radius:10px;
+    flex: 0 0 150px;
+    background: var(--color-secundario);
+
+}
